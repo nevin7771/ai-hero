@@ -1,0 +1,10 @@
+{
+  "best_mode": "hybrid",
+  "hit_at_5": 0.95,
+  "mrr": 0.8494,
+  "answer_vs_context_token_f1": 0.3778,
+  "benchmark_questions": 5,
+  "app_link": "https://nevin7771-ai-hero-projectstreamlit-app-p2uerj.streamlit.app/",
+  "repo_link": "https://github.com/nevin7771/ai-hero",
+  "share_text": "\ud83d\ude80 Day 7 of building my AI agent: sharing results!\n\nThis week I built and shipped a docs assistant over LangChain, Semantic Kernel, and OpenAI Cookbook repositories.\n\nWhat I measured:\n- Best retrieval mode: hybrid\n- Hit@5: 0.95\n- MRR: 0.8494\n- Answer-vs-context token F1: 0.3778\n- Benchmark questions: 5\n\nLive app: https://nevin7771-ai-hero-projectstreamlit-app-p2uerj.streamlit.app/\nRepo: https://github.com/nevin7771/ai-hero\n\nBig takeaway: hybrid retrieval + tool calling gave the most reliable answers with traceable sources.\n\nFollowing along with AI Hero - who else is building AI agents?"
+}

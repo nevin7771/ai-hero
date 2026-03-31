@@ -1,0 +1,62 @@
+{
+  "run_timestamp_utc": "2026-03-31_02-35-33",
+  "retrieval_eval": [
+    {
+      "hit@5": 0.95,
+      "mrr": 0.8494444444444444,
+      "n": 120,
+      "mode": "hybrid"
+    },
+    {
+      "hit@5": 0.95,
+      "mrr": 0.8369444444444445,
+      "n": 120,
+      "mode": "vector"
+    },
+    {
+      "hit@5": 0.8666666666666667,
+      "mrr": 0.7675,
+      "n": 120,
+      "mode": "text"
+    }
+  ],
+  "answer_quality_mean_f1": 0.37783777949223857,
+  "benchmark": [
+    {
+      "question": "How do I build an agent with tools?",
+      "text_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0072-agents-with-memory.md",
+      "vector_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0070-declarative-agent-schema.md",
+      "hybrid_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0070-declarative-agent-schema.md",
+      "text_vs_vector_same": false
+    },
+    {
+      "question": "Where are examples of function calling in these repositories?",
+      "text_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0017-openai-function-calling.md",
+      "vector_top_file": "microsoft-semantic-kernel-5f282a9/dotnet/samples/Concepts/README.md",
+      "hybrid_top_file": "microsoft-semantic-kernel-5f282a9/dotnet/samples/Concepts/README.md",
+      "text_vs_vector_same": false
+    },
+    {
+      "question": "How can I add memory or state to an agent workflow?",
+      "text_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0072-agents-with-memory.md",
+      "vector_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0072-agents-with-memory.md",
+      "hybrid_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0072-agents-with-memory.md",
+      "text_vs_vector_same": false
+    },
+    {
+      "question": "What are common patterns for retrieval-augmented generation?",
+      "text_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0034-rag-in-sk.md",
+      "vector_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0034-rag-in-sk.md",
+      "hybrid_top_file": "microsoft-semantic-kernel-5f282a9/docs/decisions/0034-rag-in-sk.md",
+      "text_vs_vector_same": true
+    },
+    {
+      "question": "How do I evaluate an agent for relevance and grounding?",
+      "text_top_file": "microsoft-semantic-kernel-5f282a9/python/samples/concepts/README.md",
+      "vector_top_file": "microsoft-semantic-kernel-5f282a9/python/samples/demos/document_generator/README.md",
+      "hybrid_top_file": "microsoft-semantic-kernel-5f282a9/python/samples/demos/document_generator/README.md",
+      "text_vs_vector_same": false
+    }
+  ],
+  "notes": "Day 7 share package from project notebook"
+}
